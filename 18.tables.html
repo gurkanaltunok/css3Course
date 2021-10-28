@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables Styling</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+
+    <style>
+        table,tr,td,th {
+            border: 2px solid black;
+            border-collapse: collapse;
+            font-family: 'Open Sans', sans-serif;
+        }
+        table {
+            width: 75%;
+            margin: 0 auto;
+            font-size: 1.5em;
+        }
+        th,td {
+            padding: 10px;
+        }
+        thead tr {
+            background: #1ED760;
+            color: #000000;
+        }
+        tbody tr {
+            text-align: center;
+            color: #f2f2f2;
+        }
+        tbody tr:nth-child(even) {
+            background: #282828;
+        }
+        tbody tr:nth-child(odd) {
+            background: #111111;
+        }
+        tbody tr:hover {
+            border: 3px solid #1ED760;
+            color: #5dcf85;
+        }
+        
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Ad</th>
+                <th>Departman</th>
+                <th>Maaş</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Gürkan</td>
+                <td>Yazılım</td>
+                <td>25000</td>
+            </tr>
+            <tr>
+                <td>Gürkan</td>
+                <td>Yazılım</td>
+                <td>25000</td>
+            </tr>
+            <tr>
+                <td>Gürkan</td>
+                <td>Yazılım</td>
+                <td>25000</td>
+            </tr>
+            <tr>
+                <td>Gürkan</td>
+                <td>Yazılım</td>
+                <td>25000</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
